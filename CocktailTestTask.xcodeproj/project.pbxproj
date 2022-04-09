@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0407673927F49B6B00746547 /* Colors .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407673827F49B6B00746547 /* Colors .swift */; };
+		0407673D27F4A1B900746547 /* UITextField+Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407673C27F4A1B900746547 /* UITextField+Configure.swift */; };
+		0407673F27F4B7C500746547 /* Result+DecodableFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407673E27F4B7C500746547 /* Result+DecodableFailure.swift */; };
 		042592E527F3503A00CDD905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042592E427F3503A00CDD905 /* AppDelegate.swift */; };
 		042592E727F3503A00CDD905 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042592E627F3503A00CDD905 /* SceneDelegate.swift */; };
-		042592E927F3503A00CDD905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042592E827F3503A00CDD905 /* ViewController.swift */; };
-		042592EC27F3503A00CDD905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042592EA27F3503A00CDD905 /* Main.storyboard */; };
+		042592E927F3503A00CDD905 /* CocktailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042592E827F3503A00CDD905 /* CocktailListViewController.swift */; };
 		042592EE27F3504200CDD905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042592ED27F3504200CDD905 /* Assets.xcassets */; };
 		042592F127F3504200CDD905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042592EF27F3504200CDD905 /* LaunchScreen.storyboard */; };
+		042592FA27F350E300CDD905 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 042592F927F350E300CDD905 /* SnapKit */; };
+		042592FD27F3512400CDD905 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 042592FC27F3512400CDD905 /* Alamofire */; };
+		0425930327F3595900CDD905 /* RemoteCocktailsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425930227F3595900CDD905 /* RemoteCocktailsList.swift */; };
+		0425930527F359FA00CDD905 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425930427F359FA00CDD905 /* Cocktail.swift */; };
+		0425930827F3613900CDD905 /* CocktailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425930727F3613900CDD905 /* CocktailCell.swift */; };
+		0425930A27F394B300CDD905 /* LeftAlignedCellCustomViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425930927F394B300CDD905 /* LeftAlignedCellCustomViewLayout.swift */; };
+		04C9C25028007CFD00E89F5C /* RemoteCocktailListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9C24F28007CFD00E89F5C /* RemoteCocktailListProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0407673827F49B6B00746547 /* Colors .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors .swift"; sourceTree = "<group>"; };
+		0407673C27F4A1B900746547 /* UITextField+Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Configure.swift"; sourceTree = "<group>"; };
+		0407673E27F4B7C500746547 /* Result+DecodableFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+DecodableFailure.swift"; sourceTree = "<group>"; };
 		042592E127F3503A00CDD905 /* CocktailTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042592E427F3503A00CDD905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042592E627F3503A00CDD905 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		042592E827F3503A00CDD905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		042592EB27F3503A00CDD905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042592E827F3503A00CDD905 /* CocktailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailListViewController.swift; sourceTree = "<group>"; };
 		042592ED27F3504200CDD905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042592F027F3504200CDD905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042592F227F3504200CDD905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0425930227F3595900CDD905 /* RemoteCocktailsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCocktailsList.swift; sourceTree = "<group>"; };
+		0425930427F359FA00CDD905 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		0425930727F3613900CDD905 /* CocktailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailCell.swift; sourceTree = "<group>"; };
+		0425930927F394B300CDD905 /* LeftAlignedCellCustomViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedCellCustomViewLayout.swift; sourceTree = "<group>"; };
+		04C9C24F28007CFD00E89F5C /* RemoteCocktailListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCocktailListProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042592FA27F350E300CDD905 /* SnapKit in Frameworks */,
+				042592FD27F3512400CDD905 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,62 @@
 		042592E327F3503A00CDD905 /* CocktailTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				0493580028007A6A00C5AA84 /* Resources */,
+				049357FE2800783500C5AA84 /* Presentation */,
+				0425930127F3586A00CDD905 /* Model */,
 				042592E427F3503A00CDD905 /* AppDelegate.swift */,
 				042592E627F3503A00CDD905 /* SceneDelegate.swift */,
-				042592E827F3503A00CDD905 /* ViewController.swift */,
-				042592EA27F3503A00CDD905 /* Main.storyboard */,
-				042592ED27F3504200CDD905 /* Assets.xcassets */,
 				042592EF27F3504200CDD905 /* LaunchScreen.storyboard */,
-				042592F227F3504200CDD905 /* Info.plist */,
 			);
 			path = CocktailTestTask;
+			sourceTree = "<group>";
+		};
+		042592FE27F357AE00CDD905 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0425930727F3613900CDD905 /* CocktailCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0425930127F3586A00CDD905 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C9C24F28007CFD00E89F5C /* RemoteCocktailListProtocol.swift */,
+				0425930227F3595900CDD905 /* RemoteCocktailsList.swift */,
+				0425930427F359FA00CDD905 /* Cocktail.swift */,
+				0407673827F49B6B00746547 /* Colors .swift */,
+				0407673E27F4B7C500746547 /* Result+DecodableFailure.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049357FE2800783500C5AA84 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				049357FF28007A3A00C5AA84 /* ViewController */,
+				042592FE27F357AE00CDD905 /* Cell */,
+				0425930927F394B300CDD905 /* LeftAlignedCellCustomViewLayout.swift */,
+				0407673C27F4A1B900746547 /* UITextField+Configure.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		049357FF28007A3A00C5AA84 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				042592E827F3503A00CDD905 /* CocktailListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0493580028007A6A00C5AA84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				042592ED27F3504200CDD905 /* Assets.xcassets */,
+				042592F227F3504200CDD905 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +142,17 @@
 				042592DD27F3503A00CDD905 /* Sources */,
 				042592DE27F3503A00CDD905 /* Frameworks */,
 				042592DF27F3503A00CDD905 /* Resources */,
+				04C9C2512800AC9700E89F5C /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CocktailTestTask;
+			packageProductDependencies = (
+				042592F927F350E300CDD905 /* SnapKit */,
+				042592FC27F3512400CDD905 /* Alamofire */,
+			);
 			productName = CocktailTestTask;
 			productReference = 042592E127F3503A00CDD905 /* CocktailTestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,10 @@
 				Base,
 			);
 			mainGroup = 042592D827F3503900CDD905;
+			packageReferences = (
+				042592F827F350E300CDD905 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				042592FB27F3512400CDD905 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 042592E227F3503A00CDD905 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,19 +201,46 @@
 			files = (
 				042592F127F3504200CDD905 /* LaunchScreen.storyboard in Resources */,
 				042592EE27F3504200CDD905 /* Assets.xcassets in Resources */,
-				042592EC27F3503A00CDD905 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C9C2512800AC9700E89F5C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		042592DD27F3503A00CDD905 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042592E927F3503A00CDD905 /* ViewController.swift in Sources */,
+				0407673D27F4A1B900746547 /* UITextField+Configure.swift in Sources */,
+				0425930827F3613900CDD905 /* CocktailCell.swift in Sources */,
+				042592E927F3503A00CDD905 /* CocktailListViewController.swift in Sources */,
+				04C9C25028007CFD00E89F5C /* RemoteCocktailListProtocol.swift in Sources */,
+				0407673F27F4B7C500746547 /* Result+DecodableFailure.swift in Sources */,
+				0407673927F49B6B00746547 /* Colors .swift in Sources */,
+				0425930A27F394B300CDD905 /* LeftAlignedCellCustomViewLayout.swift in Sources */,
+				0425930327F3595900CDD905 /* RemoteCocktailsList.swift in Sources */,
 				042592E527F3503A00CDD905 /* AppDelegate.swift in Sources */,
+				0425930527F359FA00CDD905 /* Cocktail.swift in Sources */,
 				042592E727F3503A00CDD905 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +248,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		042592EA27F3503A00CDD905 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				042592EB27F3503A00CDD905 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		042592EF27F3504200CDD905 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,10 +384,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2GBYKA6BBC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailTestTask/Info.plist;
+				INFOPLIST_FILE = CocktailTestTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +400,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,10 +413,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2GBYKA6BBC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailTestTask/Info.plist;
+				INFOPLIST_FILE = CocktailTestTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +429,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +455,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		042592F827F350E300CDD905 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		042592FB27F3512400CDD905 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		042592F927F350E300CDD905 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042592F827F350E300CDD905 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		042592FC27F3512400CDD905 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042592FB27F3512400CDD905 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 042592D927F3503900CDD905 /* Project object */;
 }

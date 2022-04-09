@@ -1,0 +1,58 @@
+included:
+  - BallisticCalculator/Application
+  - BallisticCalculator/Data
+  - BallisticCalculator/Domain
+  - BallisticCalculator/Presentation
+
+disabled_rules:
+  - cyclomatic_complexity
+  - force_cast
+  - force_try
+  - function_parameter_count
+  - leading_whitespace
+  - line_length
+  - switch_case_alignment
+  - nesting
+  - notification_center_detachment
+  - todo
+  - trailing_newline
+  - trailing_whitespace
+  - type_body_length
+  - vertical_parameter_alignment
+  - valid_ibinspectable
+  - implicit_getter
+  - empty_enum_arguments
+
+opt_in_rules:
+  - closure_spacing
+  - contains_over_first_not_nil
+  - discouraged_object_literal
+  - empty_count
+  - empty_string
+  - explicit_init
+  - fallthrough
+  - identical_operands
+  - operator_usage_whitespace
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+
+file_length:
+  warning: 700
+
+identifier_name:
+  min_length: 1
+  max_length: 50
+  allowed_symbols:
+    - _
+
+type_name:
+  max_length: 60
+
+function_body_length:
+  warning: 80
+
+large_tuple:
+  warning: 3
+  error: 5
+
+warning_threshold: 15
